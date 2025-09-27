@@ -1,0 +1,135 @@
+header{
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(45, 61, 71, 0.354);
+    gap: 1rem;
+    padding: 2px;
+    flex-wrap: wrap;
+   
+}
+.linkex a{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+}
+header a:hover{
+    color:black;
+}
+body{
+    background-image: Url(img/Ararate.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 155vh;
+    color: white;
+}
+.first-section{
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.ola{
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(3, 0, 0);
+    padding: 5px;
+    margin: 10px;
+    height:30vh ;    
+}
+strong{
+    color: rgb(136, 63, 3);
+}
+strong:hover{
+    color: rgb(241, 245, 2);
+}
+
+.box-img-main{
+    
+    display: flex;
+    padding: 1rem;
+    height: 50vh;
+    width: 50vh;
+}
+.img-profile{
+    border-radius: 40%;
+}
+
+.second-section{
+    text-align: center;
+    background-color:rgba(45, 61, 71, 0.354);
+    font-family: 'Times New Roman', Times, serif;
+    
+
+    
+}
+.second-section p{
+    color: white;
+    
+    padding: 5px;
+    margin: 5px;
+}
+
+ul{
+    display: inline-flex;
+    text-align: center;
+    list-style: none;
+    gap:2rem;
+    margin: 5px;
+    
+    
+}
+li{
+    color: rgb(255, 255, 255);
+   
+}
+li:hover{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    
+    
+}
+.third-second{
+    margin: 10px;
+    padding: 10px;
+    background-color: grey;
+}    
+.social-media a{
+    display:flex;
+    justify-content: center;
+    text-decoration: none;
+    gap:2rem;
+    color: white;
+    padding: 2px;
+    margin: 2px;
+}
+.social-media a:hover{
+    color:black;
+}
+.linkct a{
+    display:flex;
+    justify-content: center;
+    text-decoration: none;
+    gap:2rem;
+    color: white;
+    padding: 2px;
+    margin: 2px;
+}
+.linkct a:hover{
+    color: black;
+}
+h3{
+    text-align: center;}
+
+
+
+footer{
+    background-color: rgba(45, 61, 71, 0.354);
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
